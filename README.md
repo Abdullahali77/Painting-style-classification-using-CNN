@@ -1,11 +1,11 @@
 # **Painting-style-classification-using-CNN**
 This project focuses on classifying paintings into different styles using Convolutional Neural Networks (CNNs). The dataset used in this project is the keremberke/painting-style-classification dataset from Hugging Face, which contains various painting styles as classes.
 
-## Data Preprocessing
+## Data Preprocessing:
 The dataset is already split into training, validation, and testing sets.
 The preprocessing pipeline involves resizing images to 224x224 pixels, normalizing pixel values to the range [0, 1], and converting the images and labels to tensors. This preprocessing is applied to the training, validation, and test datasets.
 
-## Model Architectures
+## Model Architectures:
 Several CNN architectures were tested to find the best-performing model for painting style classification. All models are implemented using TensorFlow and Keras.
 
 ### First Architecture
